@@ -1,0 +1,35 @@
+{
+  "name": "choo-notification",
+  "description": "Web Notification plugin for Choo",
+  "repository": "choojs/choo-notification",
+  "version": "1.0.0",
+  "scripts": {
+    "deps": "dependency-check . && dependency-check . --extra --no-dev",
+    "start": "bankai start example",
+    "test": "standard && npm run deps"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "bankai": "^9.4.1",
+    "choo": "^6.7.0",
+    "choo-devtools": "^2.3.3",
+    "dependency-check": "^3.0.0",
+    "standard": "^10.0.3",
+    "tape": "^4.8.0"
+  },
+  "keywords": [
+    "choo",
+    "choojs",
+    "notification",
+    "notify",
+    "popup",
+    "browser",
+    "os",
+    "native",
+    "mobile",
+    "emit",
+    "emitter",
+    "message"
+  ],
+  "license": "Apache-2.0"
+}
