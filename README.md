@@ -71,6 +71,9 @@ Create a new `choo-notification` instance.
 $ npm install choo-notification
 ```
 
+## Further Reading
+- [Using the Notification API][notification]
+
 ## License
 [Apache-2.0](./LICENSE)
 
