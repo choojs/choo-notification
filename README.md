@@ -4,6 +4,11 @@
 
 [Web Notification][notification] plugin for Choo.
 
+_Note: be careful when using notifications. Overuse, or even asking for
+permissions unexpectedly can provide people with a bad experience. Make sure
+people know why you're asking for permission to send notifications. Use this API
+responsibly._
+
 ## Usage
 ```js
 var html = require('choo/html')
