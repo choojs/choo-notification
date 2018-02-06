@@ -5,6 +5,7 @@
   "version": "1.0.0",
   "scripts": {
     "start": "bankai start example",
+    "build": "bankai build example",
     "test": "standard"
   },
   "dependencies": {
